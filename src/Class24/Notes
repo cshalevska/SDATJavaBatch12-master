@@ -1,0 +1,20 @@
+Abstract classes in Java:
+- they are classes with abstract keyword
+-we use the abstract class to achieve abstraction
+
+Definition:
+Abstraction is the process of hiding implementation details and only showing the functionality of the end user
+
+Benefits:
+- reduces the complexity
+- improves the maintainability
+-also can be use to enforce rules up to a certain limit
+
+Disadvantages:
+-classes get tightly coupled
+- class Dof{
+//concrete class
+}
+public abstract class Phone{
+Sting make;
+String model;

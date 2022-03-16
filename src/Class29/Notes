@@ -1,0 +1,23 @@
+Set in java:
+
+Set is an interface in collections frameworks which is implimented by many classes for example:
+- Hashset,LinkedHashSet and ThreeHashSet
+
+Properties of :
+All the Sets don't allow duplicates
+
+HashSet:
+HashSet does not maintain the insertion order
+- it is the fastes in all sets
+-most widely used set
+LinkedHashSet:
+- maintains the insertion order
+-slower that HashSet but faster that ThreSet specially in insertions
+TreeSet:
+- sorts the data in natural order. for number in increasing order
+- it is slowest when it comes to store the data
+
+When to use which type of Set:
+- If we don't care abpout insertion oder and data being sorted always use HashSet
+- if we need the insertion order we don't have much choice
+- we have to use the LinkedHashSet
