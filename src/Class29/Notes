@@ -20,4 +20,16 @@ TreeSet:
 When to use which type of Set:
 - If we don't care abpout insertion oder and data being sorted always use HashSet
 - if we need the insertion order we don't have much choice
-- we have to use the LinkedHashSet
+- we have to use the LinkedHashSet, but if we don't care about the insertion order
+we can compare it with TreeSet
+
+LinkedHashSet                      vs       TreeHashSet
+insertion is not slow                       Slowest insertion
+Retrieval is super slow                     slower than HashSet but faster than the LinkSashSet
+I don't care about insertion order   but    I don't care about retrival speed which headset to use?
+Hashset
+
+I care about insertion order but, I don't care about retrival speed which Set should I use?
+LinkHashSet
+if I want to have sorted data all the time?
+Treeset

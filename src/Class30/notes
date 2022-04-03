@@ -1,0 +1,32 @@
+Maps in java:
+
+Masp is an interface that allows us to store the data in the key value pairs.
+
+Benefits:
+1) we can strore two values inside the maps
+2) Searching is very efficient in maps
+
+Type of maps:
+1. HashMap
+2. LinkedHashMap
+3. TreeMap
+
+HashMap:
+1. Insertion order is not maintained (downside)
+2.insertion and retrival is fastest( upside)
+
+LinkedHashMap:
+1.insertion order is maintained ( upside)
+2.insertion speed is same as Hashmap but retrival speed is slowest in all the maps
+
+TreeMap:
+1.Data is stored in natural order by default
+2. insertion speed is slowest but retrieval spredd is better that LinkHashMap
+but slower than the HaspMAp
+
+Rules:
+We can not convert a collection to a map for example we can't convert
+
+Map<String,String> students=new Map<>();
+students.put("Yaz123,"Yazgul");
+Set<String> set=new HashSet(students);
