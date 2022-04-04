@@ -17,8 +17,9 @@ Rules:
 6) we can't change the access modifier to be more restrictiv
 7) Method return type should be the same
 
-Method Overloading                          vs             Method Overriding
-method signature should be the different                method signature should be the same
-return type can be different                          Return type should be same
-we don't care about the access modifiers           Access modifier cant be more restricted
-we can overload constructors                     we can't override constructors
+Method Overloading                                   vs                     Method Overriding
+method signature should be the different                             method signature should be the same
+return type can be different                                         Return type should be same
+we don't care about the access modifiers                             Access modifier cant be more restricted
+we can overload constructors                                         we can't override constructors
+we achive compile polymophisam or early binding or static            run time polymorhism or dinamic
